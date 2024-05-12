@@ -11,7 +11,7 @@ pool:
 
 steps:
 - bash: |
-    xcode -list
+    xcodebuild -list
 - task: Xcode@5
   inputs:
     actions: 'build'
